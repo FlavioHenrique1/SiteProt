@@ -3,10 +3,12 @@ body{
 }
 
 .nome{
-    color: black;
+    
     opacity:calc(0.9);
     border-radius: initial;
     margin-top: 100px;
+    text-shadow: 0 0 0.2em rgb(17, 13, 12), 0 0 0.2em rgb(12, 12, 12);
+    font-size: 50px;
 }
 .col{
     margin-left: 4px;;
