@@ -2,42 +2,43 @@ body{
 
 }
 
-
 .nome{
     color: black;
     opacity:calc(0.9);
     border-radius: initial;
     margin-top: 100px;
 }
+.col{
+    margin-left: 4px;;
+}
 .cont{ 
     color: white;
     text-align: center;
     width: 100%;
-    height: 100%;
-    position:absolute;
+    height: 90%;
     background-repeat: repeat-y;
 }
 @media screen and (max-width: 480px){
     .cont{
-        background-image: url("304696-1.jpg");    
+        background-image: url("../img/304696-1.jpg");    
     }
 }
 @media screen and (min-width:481px) and (max-width: 768px){
     .cont{
-        background-image: url("304696-2.jpg");    
+        background-image: url("../img/304696-2.jpg");    
     }
 
 }
 
 @media screen and (min-width:769px) and (max-width: 1199px){
     .cont{
-        background-image: url("3046961.jpg");    
+        background-image: url("../img/3046961.jpg");    
     }
 
 }
 
 @media screen and (min-width:1200px){
     .cont{
-        background-image: url("3046961.jpg");    
+        background-image: url("../img/3046961.jpg");    
     }
 }
