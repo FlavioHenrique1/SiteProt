@@ -1,0 +1,17 @@
+body{
+    background-image: url("3046961.jpg");    
+    
+}
+
+.cont{
+
+    color: white;
+    text-align: center;
+
+}
+.nome{
+    color: black;
+    opacity:calc(0.9);
+    border-radius: initial;
+    margin-top: 100px;
+}
